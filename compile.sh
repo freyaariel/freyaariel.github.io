@@ -4,12 +4,12 @@ pushd ~/Projects/perl-core
 xcodebuild docbuild -scheme perl-core -derivedDataPath /tmp -destination "platform=macOS"
 popd
 
-pushd ~/Projects/sql-formatting
-xcodebuild docbuild -scheme sql-formatting -derivedDataPath /tmp -destination "platform=macOS"
+pushd ~/Projects/prettier-formatting
+xcodebuild docbuild -scheme prettier-formatting -derivedDataPath /tmp -destination "platform=macOS"
 popd
 
-pushd ~/Projects/javascript-formatting
-xcodebuild docbuild -scheme javascript-formatting -derivedDataPath /tmp -destination "platform=macOS"
+pushd ~/Projects/sql-formatting
+xcodebuild docbuild -scheme sql-formatting -derivedDataPath /tmp -destination "platform=macOS"
 popd
 
 pushd ~/Projects/watch-date-picker
