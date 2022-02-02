@@ -1,5 +1,9 @@
 #!/bin/sh
 
+pushd ~/Projects/perl-core
+xcodebuild docbuild -scheme perl-core -derivedDataPath /tmp -destination "platform=macOS"
+popd
+
 pushd ~/Projects/sql-formatting
 xcodebuild docbuild -scheme sql-formatting -derivedDataPath /tmp -destination "platform=macOS"
 popd
